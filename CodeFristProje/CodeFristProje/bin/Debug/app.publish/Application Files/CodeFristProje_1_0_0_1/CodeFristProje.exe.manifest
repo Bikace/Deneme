@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CodeFristProje.exe" version="1.0.0.1" publicKeyToken="9c64df7681d64351" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CodeFristProje" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CodeFristProje.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CodeFristProje.exe" size="81384">
+      <assemblyIdentity name="CodeFristProje" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/BkqhfgkzgFIfmqEsTkv4ebSw8Jn9fn1NPytD4KCzgs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5196496">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7W69dJBS+QGPZplnGuVGmt7fCGz4sb1CVrvpxOf2/wU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="621264">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ob9snjgg6D9D6fIN19mwozYqkxRvCv4LEzAYXi1RsMs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="CodeFristProje.exe.config" size="1138">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LLHi+eeUyH79s6SdnPspAfHrUjFrxnc3LOWSr1uyK4U=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-S1D6RTO\Bikace" issuerKeyHash="4210da189a3562294a3503ed087cff40649ef362" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jaRdjixd11B+0qyUcttuFxQy4kAFvCthS4lQcTUW4jA=</DigestValue></Reference></SignedInfo><SignatureValue>cClONc8ryRa1trD1oyGbftDiwKIDeW25nNLM5f1bR8wDLRULTKusQYrCGJZ6UYpPUnATHOh/PsIj/iXQ5VrQl5UTY1rnpZBB0Ge0EKH78ytGNLOQupPfXnE8y2FGmLlKoOH4sHk8t/br6kQy/u3310dOd1oDtsTZl42evq1+6pk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uSsewIUUXHcZ0OxVjEtvWT1+CBdBRkU6HaBJ4eungZnU0n2iqj8nIKdbjMq4oY6qWQor7nXFSwp7pBn3szhz1QE81r9djFW1fAhwZPWe4antX8F0SErVk64pP7r+5Z0VMgWBzLTimNvrytYhoOee9g/OoMYeDMu5AKccjd2deRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="30e216357150894b612bbc0540e23214176edb7294acd27e50d75d2c8e5da48d" Description="" Url=""><as:assemblyIdentity name="CodeFristProje.exe" version="1.0.0.1" publicKeyToken="9c64df7681d64351" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-S1D6RTO\Bikace</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>kWS9QLZbWAwod2+J+hOmF7BKimCOXvQKhQHNaX/F3c8=</DigestValue></Reference></SignedInfo><SignatureValue>pH89ixK+0PTrS3Nu1BUpuZu//+wAfYS62M+6Bh6qSmAdUMUSIABlwyGn59rxZWwHVsF/huoL2sUgLakl+Zoasu+4nErKNK4DnMOp3fDpiHxM0BwkYSmr5amgQhhxEcNl7JRmxCFXhNmLnWT5HdnMfnOMPVdQIWjazdJl4WWh+5M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uSsewIUUXHcZ0OxVjEtvWT1+CBdBRkU6HaBJ4eungZnU0n2iqj8nIKdbjMq4oY6qWQor7nXFSwp7pBn3szhz1QE81r9djFW1fAhwZPWe4antX8F0SErVk64pP7r+5Z0VMgWBzLTimNvrytYhoOee9g/OoMYeDMu5AKccjd2deRU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQeAHdn4udvbZLdoCbdyDEdDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwARABFAFMASwBUAE8AUAAtAFMAMQBEADYAUgBUAE8AXABCAGkAawBhAGMAZTAeFw0xNzA3MjgxMzQxMDFaFw0xODA3MjgxOTQxMDFaMDcxNTAzBgNVBAMeLABEAEUAUwBLAFQATwBQAC0AUwAxAEQANgBSAFQATwBcAEIAaQBrAGEAYwBlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC5Kx7AhRRcdxnQ7FWMS29ZPX4IF0FGRTodoEnh66eBmdTSfaKqPycgp1uMyrihjqpZCivudcVLCnukGfezOHPVATzWv12MVbV8CHBk9Z7hqe1fwXRIStWTrik/uv7lnRUyBYHMtOKY2+vK1iGg5572D86gxh4My7kApxyN3Z15FQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAADVHL5QnLcnNx7YcPfT+XCD50Oq/R4lWUcdyg77yyQNWUy2JZYlW2qTxYWIsocRB2eF8pI2YJVI/Pu5PhTgxPfX+87zQq8AjlmeNbrSXYmgy1ltxgTfNdh5vmS05aLl6Gk1qGv2uG+6DfC03HrwnS0TGgsxJsO0++sGik7dJzJE</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
