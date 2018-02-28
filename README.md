@@ -1,1 +1,1 @@
-Depo-Yonetimi-Desktop
+Depo Yönetimi Desktop uygulaması
